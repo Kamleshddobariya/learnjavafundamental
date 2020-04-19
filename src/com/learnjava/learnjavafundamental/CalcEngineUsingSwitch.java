@@ -8,6 +8,8 @@ public class CalcEngineUsingSwitch {
         char[] opCodes = {'d', 'a','s', 'm'};
         double[] results = new double[opCodes.length];
 
+        //just learned
+
         for(int i = 0 ; i < opCodes.length ; i++) {
 
             switch (opCodes[i]) {
