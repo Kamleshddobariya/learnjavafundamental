@@ -1,12 +1,16 @@
 package com.learnjava.learnjavafundamental;
 
-public class CalcEngineUsingString {
+public class CalcEngineUsingExceptionHandling {
 
     public static void main(String[] args) {
 
 
         String[] statements;
         statements = new String[]{
+
+                "add 1.0",
+                "add xx 25.0",
+                "addX 0.0 0.0",
                 "divide 100.0 50.0",
                 "add 25.0 92.0",
                 "subtract 225.0 17.0",
@@ -23,8 +27,9 @@ public class CalcEngineUsingString {
             }catch (InvalidStatementException e) {
                 System.out.println(e.getMessage());
                 if(e.getCause() != null)
-                    System.out.println(" Original exception: " + e.getCause().getMessage());
+                    System.out.println("Original exception: " + e.getCause().getMessage());
             }
+
         }
     }
 
