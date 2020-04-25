@@ -1,6 +1,6 @@
 package com.learnjava.learnjavafundamental;
 
-public enum MathCommand {
+enum MathCommand {
 
     Add,
     Subtract,
