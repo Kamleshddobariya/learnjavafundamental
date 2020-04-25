@@ -15,16 +15,9 @@ public class CalcEngineUsingString {
 
         CalculateHelper helper = new CalculateHelper();
         for(String statement:statements) {
-
-            try {
                 helper.process(statement);
                 System.out.println(helper);
 
-            }catch (InvalidStatementException e) {
-                System.out.println(e.getMessage());
-                if(e.getCause() != null)
-                    System.out.println(" Original exception: " + e.getCause().getMessage());
-            }
         }
     }
 

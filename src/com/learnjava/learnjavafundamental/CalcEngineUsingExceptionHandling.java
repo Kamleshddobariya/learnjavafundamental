@@ -17,11 +17,11 @@ public class CalcEngineUsingExceptionHandling {
                 "multiply 11.0 3.0",
         };
 
-        CalculateHelper helper = new CalculateHelper();
+        CalculateHelperWithException helper = new CalculateHelperWithException();
         for(String statement:statements) {
 
             try {
-                helper.process(statement);
+                helper.processWithException(statement);
                 System.out.println(helper);
 
             }catch (InvalidStatementException e) {
