@@ -17,7 +17,6 @@ public class CalcEngineUsingString {
         for(String statement:statements) {
                 helper.process(statement);
                 System.out.println(helper);
-
         }
     }
 
