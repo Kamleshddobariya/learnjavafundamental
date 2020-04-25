@@ -11,7 +11,6 @@ public class CalcEngineUsingString {
                 "add 25.0 92.0",
                 "subtract 225.0 17.0",
                 "multiply 11.0 3.0",
-
         };
 
         CalculateHelper helper = new CalculateHelper();
@@ -20,8 +19,6 @@ public class CalcEngineUsingString {
 
             System.out.println(helper);
         }
-
     }
-
 
 }

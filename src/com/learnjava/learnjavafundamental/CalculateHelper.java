@@ -19,10 +19,10 @@ public class CalculateHelper {
         rightValue = Double.parseDouble(parts[2]); //2.0
 
         setCommandFromString(commandString);
-        System.out.println("here commandString = " + commandString);
+//        System.out.println("here commandString = " + commandString);
 
         CalculateBase calculator = null;
-        System.out.println(command);
+//        System.out.println(command);
 
         switch (command) {
             case Add:
