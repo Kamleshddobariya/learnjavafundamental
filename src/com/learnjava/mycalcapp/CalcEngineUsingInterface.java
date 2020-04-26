@@ -5,6 +5,7 @@ import com.learnjava.learnjavafundamental.CalculateHelperWithException;
 import com.learnjava.learnjavafundamental.DynamicHelper;
 import com.learnjava.learnjavafundamental.InvalidStatementException;
 import com.learnjava.learnjavafundamental.MathProcessing;
+import com.learnjava.learnjavafundamental.PowerOf;
 
 public class CalcEngineUsingInterface {
 
@@ -15,11 +16,13 @@ public class CalcEngineUsingInterface {
         statements = new String[]{
 
                 "add 25.0 75.0",
+                "power 5.0 2.0",
 
         };
 
         DynamicHelper helper = new DynamicHelper(new MathProcessing[] {
-            new Adder()
+                new Adder(),
+                new PowerOf(),
         });
 
         for(String statement:statements) {
