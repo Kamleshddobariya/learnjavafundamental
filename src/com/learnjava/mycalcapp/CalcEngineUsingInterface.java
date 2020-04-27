@@ -11,7 +11,6 @@ public class CalcEngineUsingInterface {
 
     public static void main(String[] args) {
 
-
         String[] statements;
         statements = new String[]{
 
